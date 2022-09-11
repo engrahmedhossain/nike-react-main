@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+/* font-family: 'Bebas Neue', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+/* Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+
+ol,
+li {
+  list-style-type: none;
+}
+.banner-part span,
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  color: #fa804c;
+}
+.banner-part span {
+  color: #363958;
+}
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: #363958;
+}
+< .price {
+  color: #fa804c;
+  font-size: 36px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+button {
+  display: flex !important;
+  padding: 18px 34px;
+  background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+.header-bg {
+  background: #fff9f4;
+}
+/* Common CSS End*/
+
+/* Header Part Start */
+
+header img {
+  width: 300px;
+}
+header ul,
+li > a {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  margin-left: 57px;
+}
+.banner_f_font img {
+  width: 400px;
+  padding-bottom: 75px;
+}
+.button-customize span {
+  font-size: 16px;
+  color: white;
+}
+/* Header Part End */
+
+#Shop .cashulshow {
+  width: 100%;
+  height: 327px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+#Shop .shop_main {
+}
+
+#Shop .shop_main {
+  padding: 25px;
+  background: #ffffff !important;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Formal Show */
+.formal-show {
+  width: 100%;
+  height: 327px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+/* Contanct */
+#Contact {
+  margin-top: 100px;
+}
+#Contact .card {
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
+#Contact .col-7 img {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: ;
+}
